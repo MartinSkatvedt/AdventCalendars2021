@@ -32,6 +32,9 @@ Da nedstenging og isolasjon delvis har vedvart, har det høy prioritet i år å 
 Julenissen fant i går en huskelapp som han tror kan være relevant, men han klarer ikke å finne ut av hva han skulle huske. Kunne du hjulpet han med det?
 ```
 
+### Løsning
+PST{mangesnillebarniverden}
+
 ## 3. Julekort
 
 ### Oppgave
