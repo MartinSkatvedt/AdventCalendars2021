@@ -62,6 +62,8 @@ Har du mulighet til å se om Varelager v1 funker som det skal og at det ikke skj
 
 Varelageret finner du her, og bruk programmeringsgrensesnittnøkkel v1_pgmsqxmddz.
 ```
+### Løsning
+PST{5Q1_1nj€Ⓒt10n}
 
 ## 7. Kryptert melding
 
@@ -116,6 +118,8 @@ Fikk tilsendt denne filen fra IT-avdelingen i går, de har TAPpet filen ut av ne
 ```ascii
 Fikk tilsendt denne filen fra IT-avdelingen i går, de har TAPpet filen ut av nettverket. Har du mulighet til å se på den? Mulig den gir oss litt mer informasjon angående lekkasjen vi hadde ut til SPST. Husk, dette forblir mellom oss, i tilfelle det viser seg å være en av våre egne.
 ```
+### Løsning
+PST{c3ce11494e56a8897b6f80d1ca3dbe}
 
 ## 11. Filsystem
 
