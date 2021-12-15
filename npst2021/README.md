@@ -197,3 +197,15 @@ Nb: Hvis du skulle finne noe mistenkelig i dataen, så rapporter tilbake med hva
 ### 14. Løsning
 
 > PST{RUNFORESTRUN}
+
+## 15. Kameraopptak
+
+### 15. Oppgave
+
+```ascii
+Etter gårsdagens reinsdyrflukt bestemmer alvebetjent M. Nist seg for å sjekke kameraloggen. Dessverre ser det ut som om det bare eR blått og grØnt støy Der... Klarer du å finne ut noe mer fra opptaket?
+```
+
+### 15. Løsning
+
+> pst{hervardetikkemyeåsegitt...}
