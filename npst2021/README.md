@@ -54,7 +54,7 @@ HMS-ansvarlig var innom verkstedet i går og var helt forskrekket over rotet vi 
 
 ### 4. Løsning
 
-> ukjent
+> pst{detblirfortrot}
 
 ## 5. Digivarelager
 
