@@ -2,7 +2,7 @@
 
 ## 1. Velkommen
 
-### Oppgave
+### 1. Oppgave
 
 ```ascii
 Veldig hyggelig å ha deg ombord og fint å se at du har funnet veien inn til DASS. For at du skal finne deg mer til rette anbefaler jeg deg å sette ditt eget preg på systemet! Dette kan du gjøre ved å velge «Mal» fra startmenyen, mal din egen skrivebordsbakgrunn og velg Fil -> Sett som skrivebordsbakgrunn. Her er det bare kreativiteten som setter begrensninger, men i tilfelle du trenger litt starthjelp, legger jeg ved et eksempelbilde.
@@ -10,19 +10,15 @@ Veldig hyggelig å ha deg ombord og fint å se at du har funnet veien inn til DA
 
 ![task image](./resources/eksempel_bakgrunnsbilde.png)
 
-### Verktøy
+### 1. Løsning
 
-[aperisolve.fr](https://aperisolve.fr/)
+- [aperisolve.fr](https://aperisolve.fr/)
 
-### Løsning
-
-Verktøyet fant tekst i bilde, og teksten viste seg å være nøkkelen
-
-PST{HelloDASS}
+> PST{HelloDASS}
 
 ## 2. Huskelapp
 
-### Oppgave
+### 2. Oppgave
 
 ```ascii
 Vi går rett på sak. I fjor rakk ikke julenissen å dele ut pakker til alle som hadde gjort seg fortjent. For å komme til bunns i årsaken ble det satt ned et utvalg med mandat til å utnevne en kommisjon som skulle starte arbeidet med opprettelsen av en granskningskommité. Da granskningskommiteen kom med sin utredelse viste det seg at mulighetsrommet for å utøve slemme handlinger ble betraktelig redusert ved nedstenging og isolasjon. Det hadde rett og slett blitt for mange snille barn.
@@ -32,31 +28,37 @@ Da nedstenging og isolasjon delvis har vedvart, har det høy prioritet i år å 
 Julenissen fant i går en huskelapp som han tror kan være relevant, men han klarer ikke å finne ut av hva han skulle huske. Kunne du hjulpet han med det?
 ```
 
-### Løsning
-PST{mangesnillebarniverden}
+### 2. Løsning
+
+> PST{mangesnillebarniverden}
 
 ## 3. Julekort
 
-### Oppgave
+### 3. Oppgave
 
 ```ascii
 God fredag. Det Nordpolare Postkontor har oppdaget et julekort som er på vei til Antarktis. Etterretning viser at pingvinene i Antarktis ikke alltid har ren snø i skuffa. Det er derfor ønskelig at en alvebetjent gjennomfører en rutinemessig kontroll, og undersøker julekortets bakside og framside. Rapporter tilbake et eventuelt funn innpakket i pst{}.
 ```
 
-### Løsning
-pst{JULENISSENERTEIT}
+### 3. Løsning
+
+> pst{JULENISSENERTEIT}
 
 ## 4. Verkstedkrøll
 
-### Oppgave
+### 4. Oppgave
 
 ```ascii
 HMS-ansvarlig var innom verkstedet i går og var helt forskrekket over rotet vi har etterlatt oss der. Jeg er litt opptatt med møter i dag, kan du ta deg tid til å rydde litt? Oversikt over hva vi har på verkstedet ligger vedlagt.
 ```
 
+### 4. Løsning
+
+> ukjent
+
 ## 5. Digivarelager
 
-### Oppgave
+### 5. Oppgave
 
 ```ascii
 NPST har digitalisert varelageret sitt og flyttet det til skyen! For øyeblikket er det fortsatt i oppstartsfasen og trenger litt kvalitetssjekking.
@@ -65,12 +67,14 @@ Har du mulighet til å se om Varelager v1 funker som det skal og at det ikke skj
 
 Varelageret finner du her, og bruk programmeringsgrensesnittnøkkel v1_pgmsqxmddz.
 ```
-### Løsning
-PST{5Q1_1nj€Ⓒt10n}
+
+### 5. Løsning
+
+> PST{5Q1_1nj€Ⓒt10n}
 
 ## 7. Kryptert melding
 
-### Oppgave
+### 7. Oppgave
 
 ```ascii
 Godt å se at du er klar for en ny arbeidsuke! Arbeidsoppgavene står i kø, så det er best å sette i gang umiddelbart:
@@ -83,12 +87,14 @@ Her er meldingen:
 
 Y2MPyYU4kblEXrEfExry4AIRAjqdke+JyQQN50Uj5GuCu5rE66lEzQXB5bE VOlNGRoU06Ny4vh/gzSPFV0mHUrxaaAVt1BwN1WN1HFT7baIejtR5KyG6 JK8yC70CpuPZV610coCiWzdFICcgEtAdQaesScLrg495kxofzG3EGvA=
 ```
-### Løsning
-pst{nootnoot}
+
+### 7. Løsning
+
+> pst{nootnoot}
 
 ## 8. Frimerke
 
-### Oppgave
+### 8. Oppgave
 
 ```ascii
 En av alvebetjentene fant et løst frimerke i postmottaket. Initielle undersøkelser viser at det ikke kan ha sittet på julekortet som kom den 3. desember, da fiberne som sitter igjen i limet ikke er av samme type som julekortet. Fiberne kan minne om setetrekket fra en reinsdyrslede klasse 8.
@@ -108,35 +114,49 @@ Etterretningsalvdelingen informerer om at mottaker av den krypterte meldingen he
 en Alvebetjent gjorde meg oppmerksom på at det kan ha foregått En nøkkelutveksling tidligere i desember, kanSkje det kan hjelpe i oppklaringen?
 ```
 
+### 8. Løsning
+
+> ukjent
+
 ## 9. Nettverkstrafikk
 
-### Oppgave
+### 9. Oppgave
 
 ```ascii
 Fikk tilsendt denne filen fra IT-avdelingen i går, de har TAPpet filen ut av nettverket. Har du mulighet til å se på den? Mulig den gir oss litt mer informasjon angående lekkasjen vi hadde ut til SPST. Husk, dette forblir mellom oss, i tilfelle det viser seg å være en av våre egne.
 ```
+
+### 9. Løsning
+
+> ukjent
 
 ## 10. Digivarelager v2
 
-### Oppgave
+### 10. Oppgave
 
 ```ascii
 Fikk tilsendt denne filen fra IT-avdelingen i går, de har TAPpet filen ut av nettverket. Har du mulighet til å se på den? Mulig den gir oss litt mer informasjon angående lekkasjen vi hadde ut til SPST. Husk, dette forblir mellom oss, i tilfelle det viser seg å være en av våre egne.
 ```
-### Løsning
-PST{c3ce11494e56a8897b6f80d1ca3dbe}
+
+### 10. Løsning
+
+> PST{c3ce11494e56a8897b6f80d1ca3dbe}
 
 ## 11. Filsystem
 
-### Oppgave
+### 11. Oppgave
 
 ```ascii
 En av terminalene på julenissens kontor har utvist rar oppførsel de siste dagene. AlveCERT har sikret data fra hjemmeområdet, finner du noe muffens?
 ```
 
+### 11. Løsning
+
+> ukjent
+
 ## 12. Ugler i grøten
 
-### Oppgave
+### 12. Oppgave
 
 ```ascii
 God søndag! Det er fanget opp tO krypterte meldinger som ble sendt under lunsjgrøTen i dag. Det vekker mistanke, siden alle alvebetjenter elsker grøt og aldri vil gå gliPp av en lunsjgrøt. Se de krypterte meldingene nederst i mailen. En dyktig alvebetjent har allerede funnet noen biter av klarteksten til melding 1:
@@ -158,9 +178,13 @@ Melding 2:
 00010110 00001100 00000110 00000111 00001000 00000101 00001101 00001011 00000011 00011000 00011110 00001110 00010110 00001001 00010111 00001101 00011100 00010101 00001111 00010101 00010010 00010111 00011010 00001010 00011110 00000100 00000110 00000111 00001010 00000000 00010000 00000100 00011000 00011001 00000110 00001011 00000010 00001001 00000010 00001000 00011111 00001010 00011100 00010011 00000000 00011101
 ```
 
+### 12. Løsning
+
+> ukjent
+
 ## 14. Reinsdyr på villspor
 
-### Oppgave
+### 14. Oppgave
 
 ```ascii
 Fire av Julenissens favorittreinsdyr ble sluppet løs fra basen på Svalbard i går. Heldigvis er det sporing på reinsdyrene, så en av alvene i NPST har funnet en datamaskin og lastet ned sporingsdataen. Han klarer dessverre ikke å finne ut hvordan man får tak i GPS-filene.
@@ -169,5 +193,7 @@ Kan du hjelpe han?
 
 Nb: Hvis du skulle finne noe mistenkelig i dataen, så rapporter tilbake med hva du fant, omkranset av PST{ og }.
 ```
-### Løsning
-PST{RUNFORESTRUN}
+
+### 14. Løsning
+
+> PST{RUNFORESTRUN}
