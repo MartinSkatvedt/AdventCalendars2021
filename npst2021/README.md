@@ -43,6 +43,9 @@ PST{mangesnillebarniverden}
 God fredag. Det Nordpolare Postkontor har oppdaget et julekort som er på vei til Antarktis. Etterretning viser at pingvinene i Antarktis ikke alltid har ren snø i skuffa. Det er derfor ønskelig at en alvebetjent gjennomfører en rutinemessig kontroll, og undersøker julekortets bakside og framside. Rapporter tilbake et eventuelt funn innpakket i pst{}.
 ```
 
+### Løsning
+pst{JULENISSENERTEIT}
+
 ## 4. Verkstedkrøll
 
 ### Oppgave
