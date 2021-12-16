@@ -209,3 +209,17 @@ Etter gårsdagens reinsdyrflukt bestemmer alvebetjent M. Nist seg for å sjekke 
 ### 15. Løsning
 
 > pst{hervardetikkemyeåsegitt...}
+
+## 16. Ødelagt Julesang
+
+### 16. Oppgave
+
+```ascii
+Alvene på verkstedet klager over dårlig kvalitet på noen av julesangene som spilles over høyttalerne. Særlig denne sangen, "Rudolph, the Red-Nosed Reindeer", har mottatt mange klager. Kan du se om du finner ut hva som er galt?
+
+Det spilles et bredt spekter av julesanger på verkstedet, men denne sangen er egentlig en favoritt blant alvene. Da er det jo ekstra synd at lydkvaliteten er dårlig.
+```
+
+### 16. Løsning
+
+> pst{h4kkipl4pl4t4}
