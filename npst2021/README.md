@@ -201,6 +201,10 @@ Melding 2:
 
 > pst{berlinerkranser}
 
+### 12. Egg
+
+> pst{erteluj}
+
 ## 14. Reinsdyr på villspor
 
 ### 14. Oppgave
