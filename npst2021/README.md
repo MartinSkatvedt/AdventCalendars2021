@@ -3,7 +3,21 @@
 ## Innhold
 
 - [1. Velkommen](#1-velkommen)
-  - [Oppgave](#1-oppgave)
+- [2. Huskelapp](#2-huskelapp)
+- [3. Julekort](#3-julekort)
+- [4. Verkstedkrøll](#4-verkstedkrøll)
+- [5. Digivarelager](#5-digivarelager)
+- [7. Kryptert melding](#7-kryptert-melding)
+- [8. Frimerke](#8-frimerke)
+- [9. Nettverkstrafikk](#9-nettverkstrafikk)
+- [10. Digivarelager v2](#10-digivarelager-v2)
+- [11. Filsystem](#11-filsystem)
+- [12. Ugler i grøten](#12-ugler-i-grøten)
+- [14. Reinsdyr på villspor](#14-reinsdyr-på-villspor)
+- [15. Kameraopptak](#15-ameraopptak)
+- [16. Ødelagt Julesang](#16-ødelagt-julesang)
+- [17. Klokt trasèvalg](#17-klokt-trasèvalg)
+- [18. Grønne bokser](#18-grønne-bokser)
 
 ## 1. Velkommen
 
