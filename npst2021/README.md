@@ -2,8 +2,8 @@
 
 ## Innhold
 
-- [1. Velkommen](#1.-velkommen)
-  - [Oppgave](#1.-oppgave)
+- [1. Velkommen](#1-velkommen)
+  - [Oppgave](#1-oppgave)
 
 ## 1. Velkommen
 
