@@ -238,3 +238,15 @@ mvH mellomleder
 ### 17. Løsning
 
 > ukjent
+
+## 18. Grønne bokser
+
+### 18. Oppgave
+
+```ascii
+Alvdelingen for nettverksoperasjoner har utført en hemmelig nettverksoperasjon mot SPST. De har snublet over et "git repository", men de synes det er noe merksnodig med det. Alv en eller annen grunn så mener Alvdelingen for tekniske undersøkelser at det kan ha noe med "grønne firkanter" å gjøre, hva nå enn det betyr.
+```
+
+### 18. Løsning
+
+>pst{get_clean_go_green!}
