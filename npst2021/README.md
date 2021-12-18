@@ -199,7 +199,7 @@ Melding 2:
 
 ### 12. Løsning
 
-> ukjent
+> pst{berlinerkranser}
 
 ## 14. Reinsdyr på villspor
 
