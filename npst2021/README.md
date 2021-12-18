@@ -223,3 +223,18 @@ Det spilles et bredt spekter av julesanger på verkstedet, men denne sangen er e
 ### 16. Løsning
 
 > pst{h4kkipl4pl4t4}
+
+## 17. Klokt trasèvalg
+
+### 17. Oppgave
+
+```ascii
+Hei,
+
+nå Er det jo baRe en uke igjen til jul så vi må begynne å få på plass den nye pakkefordelingSruta. avdelingen for optimalisering og ruteplanlegging har jobbet hardt med å finne en trasé, og ga meg i går en Cd Hvor den foreløpige ruten er lagrEt. de fortalte meg at de hadde en baktanke med trasén, men ville ikke fortelle meg høyt hva dette var (i frykt for avlytting), så dette skulle komme frem fra fiLen. jeG sliteR med å tolke hvA de har tenkt. kunne du hjulPet meg?
+
+mvH mellomleder
+```
+### 17. Løsning
+
+> ukjent
