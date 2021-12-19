@@ -18,6 +18,7 @@
 - [16. Ødelagt Julesang](#16-ødelagt-julesang)
 - [17. Klokt trasèvalg](#17-klokt-trasèvalg)
 - [18. Grønne bokser](#18-grønne-bokser)
+- [19. Chimneyhopper](#19-chimneyhopper)
 
 ## 1. Velkommen
 
@@ -277,3 +278,17 @@ Alvdelingen for nettverksoperasjoner har utført en hemmelig nettverksoperasjon 
 ### 18. Løsning
 
 >pst{get_clean_go_green!}
+
+## 19. Chimneyhopper
+
+### 19. Oppgave
+
+```ascii
+Nissen forsøker å være mer produktiv i år, og unngå å gå ned i feil pipe. For å sørge for spe-serialisert levering har alvene ordnet en helt ny leveransemetode for denne pakkeleveringen.
+
+Nå handler det bare om å finne riktig pipe! Og hva var det han ønsket seg igjen...?
+```
+
+### 19. Løsning
+
+>PST{Nissen_i_pipa}
