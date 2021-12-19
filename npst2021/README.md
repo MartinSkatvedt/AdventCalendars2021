@@ -161,6 +161,10 @@ Fikk tilsendt denne filen fra IT-avdelingen i går, de har TAPpet filen ut av ne
 
 > PST{c3ce11494e56a8897b6f80d1ca3dbe}
 
+### 10. Egg
+
+> PST{EGG_StRpiITbqyEsBJM}
+
 ## 11. Filsystem
 
 ### 11. Oppgave
