@@ -147,7 +147,7 @@ Fikk tilsendt denne filen fra IT-avdelingen i går, de har TAPpet filen ut av ne
 
 ### 9. Løsning
 
-> ukjent
+> pst{jegsnakkermeddegfrastue}
 
 ## 10. Digivarelager v2
 
