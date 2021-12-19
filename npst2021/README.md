@@ -171,7 +171,7 @@ En av terminalene på julenissens kontor har utvist rar oppførsel de siste dage
 
 ### 11. Løsning
 
-> ukjent
+> PST{JuleLama}
 
 ## 12. Ugler i grøten
 
