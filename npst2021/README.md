@@ -291,4 +291,33 @@ Nå handler det bare om å finne riktig pipe! Og hva var det han ønsket seg igj
 
 ### 19. Løsning
 
+```powershell
+$Encrypted_Flag = "76492d1116743f0423413b16050a5345MgB8AGUAbwBRAEwAWQB1ADIARQB5AEEAZgB2AHIAWAB4ADQAdgA5AHIAQwBZAEEAPQA9AHwANQAxAGUAZQAxAGUAMABhADUAOAAwADMAZgBlADkAZQA3ADMANQA4AGIAZAAzADAAYQA5ADYANQA4ADMAZABhAGEAOABmADgANQAxADAANAAwADMAMwA5ADk
+AYQA4AGIAMABkAGQAMgA0ADIANgAyAGEAZgBkADUAZgBjADAAZQBhADAAMAAxADkAZQA0ADMAMwBkADIAMQA5ADIAMgA0ADcAMgA2AGUANABlAGQAYQBkAGYAYQA3ADQANAA5ADgA"
+
+$ErrorActionPreference = "SilentlyContinue"
+write-host "Starter..."     
+for ($i = 0; $i -lt 10000000; $i++) {
+
+    if ($i % 1000 -eq 0) {
+        Write-Host $i
+    }
+    $addressLookup = (Get-FileHash -InputStream ([IO.MemoryStream]::new([byte[]][char[]]$i.ToString())) -Algorithm SHA384).hash
+    try {
+        $key = [byte[]]($addressLookup[0..15] -join "").ToCharArray()
+        $ss = ConvertTo-SecureString -String $Encrypted_Flag -Key $key
+        $way = [System.Runtime.InteropServices.Marshal]::SecureStringToGlobalAllocUnicode($ss)
+        $decoded = [System.Runtime.InteropServices.Marshal]::PtrToStringUni($way)
+        Write-Host "Korrekt adresse funnet! Deploy julegaver " -ForegroundColor Magenta
+        Write-Host $decoded -ForegroundColor Yellow
+        break
+    }
+    catch {
+        continue
+    }
+}
+```
+
+Riktig tall var 19560, og flagget ble printet
+
 >PST{Nissen_i_pipa}
