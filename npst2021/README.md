@@ -266,7 +266,7 @@ mvH mellomleder
 
 ### 17. Løsning
 
-> ukjent
+> pst{skyrival}
 
 ## 18. Grønne bokser
 
