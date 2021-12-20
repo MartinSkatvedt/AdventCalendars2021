@@ -291,6 +291,10 @@ Nå handler det bare om å finne riktig pipe! Og hva var det han ønsket seg igj
 
 ### 19. Løsning
 
+I denne oppgaven fikk vi to .ps1 filer scripts. Etter et raskt google-søk viste det seg å være powershell-scripts. Etter det prøvde jeg å kjøre scriptsene, og viste seg å være en en slags klient og server modell, hvor hver av scriptsene snakket med hverandre gjenom pipes. På server-siden kunne man se i koden at den skulle mota en "adresse" fra klienten som dermed skulle dekyptere flagget.
+
+Vi fikk hint som "pid", "hva ønsker julenissen seg", men ingenting løsnet umiddelbart. Etter å ha sett litt nøyere på koden, så det ut som at man kune trengte å sende en int32 over til serveren, og bestemte meg for å prøve å bruteforce løsningen. Jeg lagde et script, basert to server-koden, men fjernet helt tunellen da det var treig, og prøve alle tall mellom 0 og 10000000.
+
 ```powershell
 $Encrypted_Flag = "76492d1116743f0423413b16050a5345MgB8AGUAbwBRAEwAWQB1ADIARQB5AEEAZgB2AHIAWAB4ADQAdgA5AHIAQwBZAEEAPQA9AHwANQAxAGUAZQAxAGUAMABhADUAOAAwADMAZgBlADkAZQA3ADMANQA4AGIAZAAzADAAYQA5ADYANQA4ADMAZABhAGEAOABmADgANQAxADAANAAwADMAMwA5ADk
 AYQA4AGIAMABkAGQAMgA0ADIANgAyAGEAZgBkADUAZgBjADAAZQBhADAAMAAxADkAZQA0ADMAMwBkADIAMQA5ADIAMgA0ADcAMgA2AGUANABlAGQAYQBkAGYAYQA3ADQANAA5ADgA"
