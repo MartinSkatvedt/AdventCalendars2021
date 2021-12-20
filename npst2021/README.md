@@ -263,6 +263,7 @@ nå Er det jo baRe en uke igjen til jul så vi må begynne å få på plass den 
 
 mvH mellomleder
 ```
+
 ### 17. Løsning
 
 > ukjent
@@ -273,11 +274,134 @@ mvH mellomleder
 
 ```ascii
 Alvdelingen for nettverksoperasjoner har utført en hemmelig nettverksoperasjon mot SPST. De har snublet over et "git repository", men de synes det er noe merksnodig med det. Alv en eller annen grunn så mener Alvdelingen for tekniske undersøkelser at det kan ha noe med "grønne firkanter" å gjøre, hva nå enn det betyr.
+
+Om du trenger hjelp så kunne du kanskje spurt alvdelingen for åpne kilder - de tar sikkert en titt på Github profilen til personen som "comitter" i repoet, kanskje det ligger et hint der.
 ```
 
 ### 18. Løsning
 
->pst{get_clean_go_green!}
+Etter å ha lest oppgaven, og tatt til meg ordene fikk jeg en ide om at man de snakket om contribution grafen på github profilen.
+
+![github graph](./resources/18/graph_example.png)
+
+Vi fikk kun utdelt, en .git fil, og kjørte først en git log for å se om noe lå umiddelbart der. Der så vi at *Underleder* hadde hatt de siste commitsene til repoet. I oppgaveteksten sto det noe om hithub profilen til den som commiter, så jeg bestemte meg for å sjekke ut profilen til Underleder. Der fant jeg fort:
+
+![hint graph](./resources/18/hint_1.png)
+
+Altså jeg hadde tenkt rett. Den første ideen jeg fikk var å hente ut alle commitsene fra .git filen, å plotte de på samme måte som github. Fant ut at det var et bibliotek som het gitpython, hvor jeg kunne gjøre dette lett.
+
+Scriptet under henter ut alle commitsene fra .git filen, teller antall på samme dag, og putter det i en json fil.
+
+```python
+from git import Repo
+import time
+import json
+
+repo = Repo("./groenne-firkanter")
+tree = repo.tree()
+headCommit = repo.head.commit
+
+commits = []
+while True:
+    nParents = len(headCommit.parents)
+    commitTime = time.strftime("%a, %d %b %Y %H:%M", time.gmtime(headCommit.committed_date))
+    
+    commits.append({"commit": headCommit, "time": commitTime})
+    
+    if (nParents == 0):
+        break
+
+    headCommit = headCommit.parents[0]
+
+distinctDates = []
+for commit in commits:
+    if (commit["time"] in distinctDates):
+        continue
+    else:
+        distinctDates.append(commit["time"])
+
+countedDates = []
+
+for dates in distinctDates:
+    countedDates.append({"date": dates, "count": 1})
+
+for commit in commits:
+    for date in countedDates:
+        if (date["date"] == commit["time"]):
+            date["count"] += 1
+
+
+with open("dates.json", 'w') as outfile:
+    json.dump(countedDates, outfile)
+
+```
+
+Da hadde jeg dataen jeg trengte, og måtte finne en måte å plotte det på. Tidligere har jeg mye brukt en javascript canvas bibliotek som heter p5, så bestemte meg for å bruke det.
+
+```javascript
+let data;
+function preload() {
+  data = loadJSON("./dates.json");
+ 
+}
+MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+DAYSINMONTHS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+YEAR = 2021
+
+function setup() {
+ createCanvas(520*3, 70);
+
+ for (var i = 0; i < data.length; i++) {
+  data[i].date = new Date(data[i].date);
+ }
+ print(data)
+
+ counter = 0
+ currentMonth = 0
+ for (var x = 0; x < width; x += width / (52 * 3)) {
+  for (var y = 0; y < height; y += height / 7) {
+   counter++
+   if (counter > DAYSINMONTHS[currentMonth]) {
+    counter = 0
+    currentMonth++
+   }
+
+   currentDay = DAYS[y]
+   currentDate = new Date(YEAR, currentMonth, counter )
+   
+   let fillVal = 0
+   for (var i = 0; i < data.length; i++) {
+    if (data[i].date.getDate() == currentDate.getDate() && data[i].date.getMonth() == currentDate.getMonth() && data[i].date.getFullYear() == currentDate.getFullYear()) {
+     fillVal = data[i].count
+     break
+    }
+   }
+   
+   stroke(0);
+   strokeWeight(1);
+   fill(0, 50 * fillVal, 0);
+   rect(x, y, width / 52, height / 7);
+  }
+ }
+}
+
+function draw() {
+}
+
+```
+
+Resultatet av det ble
+
+![solution 1](./resources/18/solution_1.png)
+
+Hvor resultatet ble noe ødelagt, grunnet forferdelig kode, men greide fortsatt å tyde flagget. Fant senere ut at av en annen at man bare kunne bruke calmap.calendarplot for python. Noe som kunne spart meg mye tid :)
+
+![solution 2](./resources/18/solution_2.png)
+
+>pst{get_clean_go_green!
 
 ## 19. Chimneyhopper
 
