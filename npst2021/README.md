@@ -226,6 +226,10 @@ Nb: Hvis du skulle finne noe mistenkelig i dataen, så rapporter tilbake med hva
 
 > PST{RUNFORESTRUN}
 
+### 14. Egg
+
+> ukjent
+
 ## 15. Kameraopptak
 
 ### 15. Oppgave
