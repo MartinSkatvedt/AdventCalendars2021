@@ -136,7 +136,7 @@ Motivet på frimerket er av en slik karakter at det må undersøkes nærmere. Ka
 
 ### 8. Løsning
 
-> ukjent
+> PST{R3m3mb3r_m3?_W3_h4d_SO_MUCH_FUN_t0g3th3r!_:D}
 
 ## 9. Nettverkstrafikk
 
@@ -225,6 +225,10 @@ Nb: Hvis du skulle finne noe mistenkelig i dataen, så rapporter tilbake med hva
 ### 14. Løsning
 
 > PST{RUNFORESTRUN}
+
+### 14. Egg
+
+> ukjent
 
 ## 15. Kameraopptak
 
