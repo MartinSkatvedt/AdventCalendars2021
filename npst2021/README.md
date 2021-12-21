@@ -19,6 +19,7 @@
 - [17. Klokt trasèvalg](#17-klokt-trasèvalg)
 - [18. Grønne bokser](#18-grønne-bokser)
 - [19. Chimneyhopper](#19-chimneyhopper)
+- [21. Mulig lekkasje](#21-mulig-lekasje)
 
 ## 1. Velkommen
 
@@ -453,3 +454,15 @@ for ($i = 0; $i -lt 10000000; $i++) {
 Riktig tall var 19560, og flagget ble printet
 
 >PST{Nissen_i_pipa}
+
+## 21. Mulig lekasje
+
+### 21. Oppgave
+
+```ascii
+NPST's sikkerhetssystemer er satt til øverste beredskap nå som jula nærmer seg, og den ene alvebetjenten oppdaget en melding som noen prøver å skjule. Kan du ta en nærmere titt på denne?
+```
+
+### 21. Løsning
+
+> PST{ReadingBetweenTheLetters}
