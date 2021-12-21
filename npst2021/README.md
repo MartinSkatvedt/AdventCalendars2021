@@ -228,7 +228,7 @@ Nb: Hvis du skulle finne noe mistenkelig i dataen, så rapporter tilbake med hva
 
 ### 14. Egg
 
-> ukjent
+> PST{Egg_RudolfErRoedPaaNesen}
 
 ## 15. Kameraopptak
 
