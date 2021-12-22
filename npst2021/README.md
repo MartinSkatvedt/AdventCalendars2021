@@ -20,6 +20,7 @@
 - [18. Grønne bokser](#18-grønne-bokser)
 - [19. Chimneyhopper](#19-chimneyhopper)
 - [21. Mulig lekkasje](#21-mulig-lekasje)
+- [22. Mistenkelig rute](#22-mistenkelig-rute)
 
 ## 1. Velkommen
 
@@ -466,3 +467,17 @@ NPST's sikkerhetssystemer er satt til øverste beredskap nå som jula nærmer se
 ### 21. Løsning
 
 > PST{ReadingBetweenTheLetters}
+
+## 22. Mistenkelig rute
+
+### 22. Oppgave
+
+```ascii
+Som du sikkert er klar over har de ansatte hos oss mulighet til å trene to timer i arbeidstiden i løpet av uken. Dette er et tilbud mange benytter seg av, spesielt etter at vi startet med utlån av GPS klokker til alle ansatte. De mest ivrige tar tar også med seg klokkene hjem i helgene. Ofte er dette ansatte med stor glede av sosiale medier, som liker å dele opplevelser med andre. Vi har spesielt lagt merke til et økt bruk av Instagram i arbeidstid.
+
+Da en oppmerksom alvebetjent tok imot en klokke i går, fant hun en rute hun syns var veldig mistenkelig og rapporterte den inn. Det mistenktes at personen som lånte denne klokka kan ha hatt kontakt med en pingvin vi holder ekstra øye med. Legger ved både rute som ble funnet på klokka og nylige bevegelser gjort av pingvinen. Kan du ta en tit å se om det har skjedd noe mistenkelig?
+```
+
+### 22. Løsning
+
+> pst{utpaaturaldrisur123}
