@@ -480,4 +480,10 @@ Da en oppmerksom alvebetjent tok imot en klokke i går, fant hun en rute hun syn
 
 ### 22. Løsning
 
+Det første jeg gjorde var å laste opp begge kml filene til google maps, slik at jeg kunne se de sammen. Så ganske raskt at rutene kun krasjet et sted; "Svalbard seed vault". Jeg prøvde å lete litt i kml filene etter hint videre, før jeg kom på at instagram var nevnt i oppgaveteksten.
+
+![Kart](./resources/22/kart.png)
+
+Søkte derfor på "svalbard seed vault" på instagram hvor jeg fant en konto som het *chiliwilly1234*, og hadde flagget i bioen til konto.
+
 > pst{utpaaturaldrisur123}
