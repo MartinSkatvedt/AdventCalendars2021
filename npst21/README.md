@@ -24,7 +24,8 @@
 - [19. Chimneyhopper](#19-chimneyhopper)
 - [21. Mulig lekkasje](#21-mulig-lekasje)
 - [22. Mistenkelig rute](#22-mistenkelig-rute)
-- [23. Ukjent](#23-ukjent)
+- [23. Sabotasje](#23-sabotasje)
+    - [23. Egg](#23-egg)
 - [24. Ukjent](#24-ukjent)
 
 ## 1. Velkommen
@@ -493,11 +494,25 @@ Søkte derfor på "svalbard seed vault" på instagram hvor jeg fant en konto som
 
 > pst{utpaaturaldrisur123}
 
-## 23. Ukjent
+## 23. Sabotasje
 
 ### 23. Oppgave
 
+```ascii
+Alvene i sledegarasjen rapporterer om at noen har tuklet med julegaveruta som er lagt inn i slede-GPSen. Det er kritisk fordi det ikke er mulig å overstyre sledens GPS-kurs under flyturen. Det har visst blitt lagt til et stopp på Antarktis, rett utenfor SPST sitt hovedkvarter, og jeg (Julenissen) er redd for at SPST planlegger å rappe alle gavene fra sleden på selveste julaften.
+
+I slede-GPS-loggen er det lagt igjen en kort beskjed: "Ikke god jul, hilsen M".
+
+Det er derfor høy prioritet å finne ut hvem "M" er, før "M" klarer å utrette mer ugagn. Mellomleder har skrytt av din innsats denne førjulstiden, så jeg vil derfor betro denne viktige oppgaven til nettopp deg. Jeg personlig har ikke tid, for jeg skal først på gløggsmaking og så skal jeg se Grevinnen og Hovmesteren. Du blir gitt tilgang til kontoret mitt i kveld for å lete gjennom papirer og se om du klarer å finne ut hvem rakkeren er. Navnet rapporteres tilbake til meg (du må selv pakke navnet inn i formatet pst{}).
+
+Dette oppdraget er gradert "Temmelig Hemmelig", så ikke fortell om dine funn til noen andre enn meg personlig.
+```
+
 ### 23. Løsning
+
+> pst{Maximilian}
+
+### 23. Egg
 
 > ukjent
 
