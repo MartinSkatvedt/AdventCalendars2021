@@ -21,6 +21,8 @@
 - [19. Chimneyhopper](#19-chimneyhopper)
 - [21. Mulig lekkasje](#21-mulig-lekasje)
 - [22. Mistenkelig rute](#22-mistenkelig-rute)
+- [23. Ukjent](#23-ukjent)
+- [24. Ukjent](#24-ukjent)
 
 ## 1. Velkommen
 
@@ -487,3 +489,19 @@ Det første jeg gjorde var å laste opp begge kml filene til google maps, slik a
 Søkte derfor på "svalbard seed vault" på instagram hvor jeg fant en konto som het *chiliwilly1234*, og hadde flagget i bioen til konto.
 
 > pst{utpaaturaldrisur123}
+
+## 23. Ukjent
+
+### 23. Oppgave
+
+### 23. Løsning
+
+> ukjent
+
+## 24. Ukjent
+
+### 24. Oppgave
+
+### 24. Løsning
+
+> ukjent
