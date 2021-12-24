@@ -26,7 +26,7 @@
 - [22. Mistenkelig rute](#22-mistenkelig-rute)
 - [23. Sabotasje](#23-sabotasje)
     - [23. Egg](#23-egg)
-- [24. Ukjent](#24-ukjent)
+- [24. Redd jula](#24-redd-jula)
 
 ## 1. Velkommen
 
@@ -516,10 +516,19 @@ Dette oppdraget er gradert "Temmelig Hemmelig", så ikke fortell om dine funn ti
 
 > ukjent
 
-## 24. Ukjent
+## 24. Redd jula
 
 ### 24. Oppgave
 
+```ascii
+elv om vi har funnet den ansvarlige må vi fortsatt fikse opp i ruta som er blitt tukla med, men Julenissen har glemt passordet til slede-GPSen.
+
+Før du kan ta fri må du fikse en siste liten oppgave for Julenissen! Det er å finne ut av passordet til Julenissen med Julenisse-passordgjenopprettings-verktøyet, mens han gjør ferdig de siste forberedelsene til jul! Kanskje det ligger noe info på kontoret hans du kan bruke, eller har du hørt noe nyttig informasjon tidligere?
+
+Det er viktig at du løser dette så fort som mulig slik at vi får reddet julen før det er for sent. Lykke til!
+
+Rapporter tilbake med julenissens passord omkranset av PST{ og }, og bruk gjenopprettingsnøkkel hohoho_god_jul.
+```
 ### 24. Løsning
 
-> ukjent
+> 1f2d444c083479aff98839fa6e48d00c
