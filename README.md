@@ -1,2 +1,1 @@
-# Writeups
-Collection of writeups from ctfs
+# Advent Calendars 2021
